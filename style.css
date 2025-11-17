@@ -3,15 +3,18 @@ body{
     height: 1000px;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7%;
 }
 
 header{
     position: fixed;
     width: 100%;
     height: 6% ;
+    background-color: rgb(255, 255, 255);
     border-bottom: 1px solid rgb(223, 211, 211);
     z-index: 1000;
     padding: 0%;
+    top: 0;
 }
 .header-left-div{   
     background-color: white;
@@ -86,4 +89,13 @@ header{
     fill: none;
     cursor: pointer;
     margin: 0%;
+}
+
+.blue-B{
+    background-color: blue;
+}
+
+.pic{
+    clip-path: inset(0% 25% 0% 25%);
+
 }
